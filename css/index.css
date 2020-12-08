@@ -1,0 +1,242 @@
+body {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
+  width: 224px;
+  height: 50px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+header {
+  background-color: #F6F6F6;
+}
+
+header .iconBar {
+  width: 1140px;
+  margin: 0 20px;
+}
+
+header .iconList {
+  padding: 5px 0;
+}
+
+header .iconList img {
+  width: 16px;
+  height: 16px;
+}
+
+header .iconList a:hover {
+  -webkit-filter: drop-shadow(0 0 0 gray);
+          filter: drop-shadow(0 0 0 gray);
+}
+
+header .iconList .fbBtn {
+  border-right: solid 1px #A9A9A9;
+}
+
+header .iconList .fbText {
+  color: #4460A0;
+}
+
+header .iconList .twitterList {
+  margin-right: 30px;
+}
+
+header .iconList .twitterText {
+  color: #00AAEC;
+}
+
+nav .navBar-row {
+  width: 100%;
+}
+
+nav .navBar {
+  width: 1140px;
+}
+
+nav .menuBar li {
+  border-bottom: solid 3px transparent;
+}
+
+nav .menuBar li:hover {
+  border-bottom: solid 3px #00CC99;
+}
+
+nav .menuBar a {
+  color: #00CC99;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section {
+  background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 78px 0;
+}
+
+section .slogan {
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+section .slogan h2 {
+  font-weight: 300;
+}
+
+main {
+  padding: 60px 0;
+}
+
+main .cardList {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+main .card {
+  width: 350px;
+  padding: 20px;
+  -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+main .card div {
+  color: #000;
+}
+
+main .card li {
+  list-style: disc;
+}
+
+main .card .lessonTitle {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main .card .lesson-subTitle, main .card .content, main .card .lessonText {
+  font-weight: 300;
+}
+
+main .card .content {
+  width: 100%;
+}
+
+main .card .lessonText {
+  margin: 0;
+}
+
+main .card .HTML-img {
+  width: 121px;
+  padding-bottom: 10px;
+}
+
+main .card .RWD-img {
+  width: 221px;
+  padding: 30px 0;
+}
+
+main .card .jQuery-img {
+  width: 117px;
+  padding-bottom: 20px;
+}
+
+main .tableTitle {
+  margin-bottom: 30px;
+}
+
+main .lessonTable {
+  font-weight: 400;
+  width: 100%;
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
+
+main .lessonTable .tableHead {
+  font-weight: 500;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 6px;
+  padding-left: 30px;
+  background: #f7f7f7;
+  color: #000;
+}
+
+main .lessonTable .tbodyRow td {
+  border-bottom: 1px solid #dddddd;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+main .greenText {
+  color: #00a67d;
+}
+
+form {
+  padding: 30px 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00644b), to(#00a87e));
+  background-image: linear-gradient(to bottom, #00644b, #00a87e);
+  color: #fff;
+}
+
+form .formContent {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+form .formTitle {
+  font-weight: 400;
+  text-align: center;
+  margin: 30px 0;
+}
+
+form .textareaBlock {
+  padding-bottom: 240px;
+}
+
+form .submitBtn {
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+form .submitBtn:hover {
+  background-color: #00CC99;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+footer .info p {
+  margin: 0;
+}
+/*# sourceMappingURL=index.css.map */
